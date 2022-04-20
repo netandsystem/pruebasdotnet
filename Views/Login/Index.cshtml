@@ -1,0 +1,84 @@
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<section class="log-sign">
+
+    <div class="log-sign__color"></div>
+    <div class="log-sign__color"></div>
+    <div class="log-sign__color"></div>
+
+    <div class="log-sing__box__square a" ></div>
+    <div class="log-sing__box__square b" ></div>
+    <div class="log-sing__box__square c" ></div>
+    <div class="log-sing__box__square d" ></div>
+    <div class="log-sing__box__square e" ></div>
+
+    <div class="box-back">
+
+        <div class="log-sing__box"
+        >
+
+            <div class="log-sign__box__header">
+                <h2 id="login">Login</h2>
+                <h2 id="signup">Sign Up</h2>
+            </div>
+
+            <div class="log-sign__box__container"
+                :style ="{ 'justify-content': switchForm }"
+            >
+                <form class="log-sign__box__container__login"
+                >
+                    <h3 class="log-sing__label">Email</h3>
+                    <input class="log-sing__input" type="email" >
+                    <h3 class="log-sing__label">Password</h3>
+                    <input class="log-sing__input" type="password" >
+                    <input class="log-sing__input" type="submit" value="Login">
+                    <p class="log-sign__box__container__login__forget">He olvidado la Password <a href="#">Click Aqui</a> </p>
+                </form>
+
+                <form  class="log-sign__box__container__register"
+                >
+                    <h3 class="log-sing__label">Name</h3>
+                    <input class="log-sing__input" type="text" >
+                    <h3 class="log-sing__label">Last Name</h3>
+                    <input class="log-sing__input" type="text" >
+                    <h3 class="log-sing__label">Email</h3>
+                    <input class="log-sing__input" type="email" >
+                    <h3 class="log-sing__label">Password</h3>
+                    <input class="log-sing__input" type="password" >
+                    <h3 class="log-sing__label">Chack your Password</h3>
+                    <input class="log-sing__input" type="password" >
+                    <input class="log-sing__input" type="submit" value="Register">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+    const singup = document.querySelector('#signup');
+    const login = document.querySelector('#login');
+    const singupform = document.querySelector('.log-sign__box__container__login');
+    const loginform = document.querySelector('.log-sign__box__container__register');
+    const container = document.querySelector('.log-sing__box');
+
+    singup.addEventListener('click', showHide);
+    login.addEventListener('click', showHide);
+    
+    function showHide () {
+        if (singupform.style.display === 'none') {
+            singupform.style.display = 'block';
+            loginform.style.display = 'none';
+            container.style.height = '400px';
+
+        } else {
+            singupform.style.display = 'none';
+            loginform.style.display = 'block';
+            container.style.height = '600px';
+        }
+        
+    }
+</script>

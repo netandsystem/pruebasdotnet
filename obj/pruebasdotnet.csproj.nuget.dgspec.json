@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet\\pruebasdotnet.csproj": {}
+    "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet\\pruebasdotnet.csproj": {
+    "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet\\pruebasdotnet.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet.csproj",
         "projectName": "pruebasdotnet",
-        "projectPath": "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet\\pruebasdotnet.csproj",
+        "projectPath": "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Programming\\pruebasdotnet\\pruebasdotnet\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Programming\\pruebasdotnet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

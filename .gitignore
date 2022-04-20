@@ -1,0 +1,5 @@
+.vscode
+.vs
+bin
+obj/staticwebassets.pack.sentinel
+obj/Debug/net6.0/*
