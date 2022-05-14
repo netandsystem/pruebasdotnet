@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'pruebasdotnet'
           slot-name: 'staging'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1BEFC41C464645E4919D69711A10436B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5698DD57B55C4878866D8F9477CCFDA1 }}
           package: .
